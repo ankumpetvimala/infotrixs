@@ -1,4 +1,4 @@
-# infotrixs
+# Infotrixs
 
 Week-1 Task
 
