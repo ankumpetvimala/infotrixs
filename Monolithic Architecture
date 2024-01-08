@@ -1,22 +1,22 @@
 Monolithic Architecture Deployment:
 -------------------------------------
 
-1.Launch Two EC2 Instances:
+1.Launch an EC2 Instance:
   AMI: Choose an Ubuntu AMI.
   Instance Type: t2.micro.
   Security Group: Create a new security group allowing HTTP (port 80) and SSH (port 22) access.
 
-2.Install MySQL on the Database Instance:
+2.Install MySQL:
   sudo apt update
   sudo apt install mysql-server
 
 3.Secure MySQL Installation:
   sudo mysql_secure_installation
 
-4.Install Apache and PHP on the WordPress Instance:
+4.Install Apache and PHP:
   sudo apt install apache2 php libapache2-mod-php php-mysql
 
-5.Install WordPress on the WordPress Instance:
+5.Install WordPress:
   sudo apt install wordpress
 
 6.Configure Apache for WordPress:
