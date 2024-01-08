@@ -19,7 +19,9 @@ Instance 2: MySQL
 Prerequisites
 
 AWS Account
+
 EC2 Key Pair
+
 Security Groups
 
 Monolithic Deployment
