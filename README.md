@@ -33,6 +33,7 @@ Welcome Page
 Once the deployment is complete, access the welcome page using the public IP or domain of your instance.
 
 Conclusion
+
 Monolithic Architecture: Pros: Simplicity, easier to manage. Cons: Scalability challenges, single point of failure.
 
 Microservices Architecture: Pros: Scalability, fault isolation. Cons: Increased complexity, potential communication overhead. Choose the architecture that best fits your application's requirements. Monolithic may be simpler for smaller projects, while microservices provide more flexibility for larger and scalable applications.
